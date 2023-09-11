@@ -4,8 +4,14 @@ html, body{
 
 a {
    margin-right: 10px;
+   text-decoration: none;
+   color: black;
    
    
+}
+
+a:hover{
+  text-decoration: underline;
 }
 
 header{
@@ -49,7 +55,7 @@ h1{
 input{
   padding: 12px;
   width: 40em;
-  border-radius: 10px;
+  border-radius: 25px;
   
 
 }
