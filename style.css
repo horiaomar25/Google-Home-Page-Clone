@@ -1,79 +1,97 @@
-html, body{
-  min-width: 400px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 a {
-   margin-right: 10px;
-   text-decoration: none;
-   color: black;
-   
-   
+  margin-right: 10px;
+  text-decoration: none;
+  color: black;
 }
 
-a:hover{
+a:hover {
   text-decoration: underline;
 }
 
-header{
+header {
   padding-top: 10px;
   margin: 10px;
   height: 50px;
 }
 
-
-.left_links{
-  float:left;
+.left_links {
+  float: left;
   margin-right: 10px;
 }
 
-.right_links{
-  float:right;
- 
+.right_links {
+  float: right;
 }
 
-#sign_in_btn{
-  background-color:#1A73E8;
+#sign_in_btn {
+  background-color: #1a73e8;
   padding: 12px;
   border-radius: 10px;
   border-top: 10px;
 }
 
-.logo_container{
-  display:flex;
+.logo_container {
+  display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   padding-top: 80px;
-  border:20px; 
+  border: 20px;
 }
 
-h1{
+h1 {
   font-size: 5rem;
   margin-bottom: 20px;
 }
 
-input{
+input {
   padding: 12px;
   width: 40em;
   border-radius: 25px;
-  
-
 }
 
-.btn_design  a {
+.btn_design a {
   background-color: #f8f9fa;
-  border:  black 5px;
+  border: black 5px;
   flex-direction: row;
   width: 50px;
-  display:inline;
-  padding:12px;
+  display: inline;
+  padding: 12px;
   border-radius: 4px;
-  
 }
 
-.search_btn_container{
-  display:flex;
+.search_btn_container {
+  display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 50px;
 }
+
+.empty_space {
+  background-color: white;
+  height: 310px;
+  margin-top: 16px;
+}
+
+.bottom_container {
+  display: flex;
+  background-color: #70757a;
+  padding: 15px, 30px, 15px, 30px;
+  height: 50px;
+}
+
+.lower-container {
+  display: flex;
+  padding-bottom: 5px;
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 5px;
+justify-content: center;
+  }
